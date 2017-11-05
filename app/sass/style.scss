@@ -1,2 +1,8 @@
 @import 'helpers/variables';
+@import 'base/reset';
 @import 'base/base';
+@import 'grid/grid';
+
+@import 'layouts/nav';
+@import 'components/logo';
+@import 'sections/header';

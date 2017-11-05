@@ -1,0 +1,16 @@
+.logo{
+	&-img,
+	&-text{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	&-img{
+		margin-right: 15px;
+	}
+	&-text{
+		background-image: $gradient;
+		font-size: 30px;
+		font-weight: 100;
+		-webkit-background-clip: text;
+	}
+}
