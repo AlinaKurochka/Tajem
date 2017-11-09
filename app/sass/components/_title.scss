@@ -1,0 +1,23 @@
+.title{
+	color: #413d4b;
+	font-family: "Playfair Display", sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.1px;
+	padding-bottom: 10px;
+	&-top{
+		padding-bottom: 15px;
+	}
+	&-center{
+		color: $color-white;
+		text-align: center;
+		font-family: "Roboto";
+		font-size: 16px;
+		letter-spacing: 0.8px;
+		padding-top: 30px;
+	}
+	&-base{
+		text-align: center;
+	}
+}
