@@ -1,0 +1,30 @@
+.review{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	&-item{
+		display: block;
+		position: relative;
+		quotes: none;
+		color: $color-white;
+		text-align: center;
+		padding-top: 110px;
+		&::before{
+			content: "\201C";
+		    font-family: "Playfair Display", serif;
+		    font-size: 100px;
+		    font-weight: 400;
+		    color: $color-white;
+		    position: absolute;
+		    left: 50%;
+	    	top: 0;
+	    	transform: translateX(-50%);
+		}
+		&::after{
+			content: "";
+		}
+		a:hover{
+			 color: #666;
+		}
+	}
+
+}

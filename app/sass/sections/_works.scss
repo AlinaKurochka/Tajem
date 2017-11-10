@@ -1,0 +1,16 @@
+.works{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	&-content{
+		display: flex;
+		flex-flow: row wrap;
+		overflow: hidden;
+		font-size: 0;
+		img{
+			object-fit: cover;
+		}
+	}
+}
+.icon-arrow{
+	padding-left: 10px;
+}

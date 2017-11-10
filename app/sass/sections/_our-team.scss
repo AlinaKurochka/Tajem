@@ -1,0 +1,22 @@
+.our-team{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	&-image{
+		overflow: hidden;
+		height: 260px;
+		img{
+			height: 100%;
+		    object-fit: cover;
+		    width: 100%;
+		}
+	}
+	&-content{
+		padding-top: 45px;
+		padding-bottom: 70px;
+	}
+	&-body{
+		text-align: center;
+		border: 1px solid #7a6f8c;
+		padding: 10px;
+	}
+}

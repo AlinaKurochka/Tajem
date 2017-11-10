@@ -20,4 +20,13 @@
 	&-base{
 		text-align: center;
 	}
+	&-gradient-section{
+		color: $color-white;
+	}
+	&-our-team{
+		font-family: "Roboto", sans-serif;
+		color: $color-white;
+		font-size: 14px;
+		letter-spacing: 0.7px;
+	}
 }

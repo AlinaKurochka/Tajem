@@ -4,6 +4,7 @@
 	font-weight: 300;
 	line-height: 24px;
 	letter-spacing: 0.7px;
+	font-family: "Playfair Display", sans-serif;
 	&-gray{
 		color: $color-gray;
 	}
@@ -16,7 +17,6 @@
 		text-align: center;
 		color: #2f2d35;
 		opacity: 0.75;
-		font-family: "Playfair Display", sans-serif;
 		letter-spacing: 1.05px;
 		position: relative;
 		padding-bottom: 20px;
@@ -32,5 +32,33 @@
 			margin-left: -25px;
 			opacity: 0.3;
 		}
+	}
+	&-gradient-section{
+		color: #f9f9f9;
+		font-size: $font-size-text;
+		letter-spacing: 1.05px;
+		&:after{
+			background-color: $color-white;
+		}
+	}
+	&-our-team{
+		font-family: "Roboto", sans-serif;
+		color: #fafafa;
+		font-size: $font-size-text;
+		font-weight: 300;
+		opacity: 0.7;
+	}
+	&-center{
+		text-align: center;
+		color: #f3f3f3;
+		font-family: "Roboto", sans-serif;
+		font-size: $font-size-text;
+	}
+	&-link{
+		color: #413d4b;
+		font-family: "Roboto", sans-serif;
+		font-size: $font-size-text;
+		font-weight: 300;
+		text-decoration: none
 	}
 }
