@@ -1731,6 +1731,19 @@ html {
   padding: 70px 0 70px 0;
 }
 
+.block-icon-content {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.block-icon-content:last-child {
+  border-right: none;
+}
+
+.block-icon-content:last-child .block-icon-content {
+  border-bottom: none;
+}
+
 .block-icon {
   padding-top: 50px;
   letter-spacing: 0.7px;
