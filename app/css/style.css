@@ -1710,6 +1710,7 @@ html {
 .video-button {
   background-color: transparent;
   border: none;
+  outline: none;
 }
 
 .video-button-border {
