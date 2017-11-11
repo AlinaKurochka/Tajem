@@ -4,7 +4,6 @@
 	font-weight: 300;
 	line-height: 24px;
 	letter-spacing: 0.7px;
-	font-family: "Playfair Display", sans-serif;
 	&-gray{
 		color: $color-gray;
 	}
@@ -42,7 +41,6 @@
 		}
 	}
 	&-our-team{
-		font-family: "Roboto", sans-serif;
 		color: #fafafa;
 		font-size: $font-size-text;
 		font-weight: 300;
@@ -51,12 +49,10 @@
 	&-center{
 		text-align: center;
 		color: #f3f3f3;
-		font-family: "Roboto", sans-serif;
 		font-size: $font-size-text;
 	}
 	&-link{
 		color: #413d4b;
-		font-family: "Roboto", sans-serif;
 		font-size: $font-size-text;
 		font-weight: 300;
 		text-decoration: none
