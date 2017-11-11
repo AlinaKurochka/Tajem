@@ -1744,34 +1744,50 @@ html {
   border-bottom: none;
 }
 
-.block-icon {
+.icon {
   padding-top: 50px;
   letter-spacing: 0.7px;
 }
 
-.block-icon-content {
-  text-align: center;
+.icon-column {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #ebebeb;
 }
 
-.block-icon-title {
+.icon-column:not(:last-child) {
+  border-right: 1px solid #ebebeb;
+}
+
+.icon-row:last-child .icon-column {
+  border-bottom: none;
+}
+
+.icon-header {
+  margin-bottom: 35px;
+}
+
+.icon-image {
+  height: 42px;
+}
+
+.icon-title {
   color: #413d4b;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.block-icon-text {
+.icon-content {
+  text-align: center;
   opacity: 0.75;
   color: #333;
   font-size: 14px;
   font-weight: 300;
-  line-height: 22px;
+  line-height: 1.6;
   margin-top: 25px;
-}
-
-.block-icon-image {
-  height: 42px;
-  margin: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .our-team {
@@ -1864,4 +1880,9 @@ html {
 
 .review-item a:hover {
   color: #666;
+}
+
+.review-item-body {
+  text-align: center;
+  color: #fff;
 }

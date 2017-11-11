@@ -1,8 +1,22 @@
-.block-icon{
+.icon{
 	padding-top: 50px;
 	letter-spacing: 0.7px;
-	&-content{
-		text-align: center;
+	&-column{
+		padding-top: 35px;
+		padding-bottom: 35px;
+		border-bottom: 1px solid #ebebeb;		
+		&:not(:last-child){
+			border-right: 1px solid #ebebeb;
+		}
+	}
+	&-row:last-child &-column{
+		border-bottom: none;
+	}
+	&-header{
+		margin-bottom: 35px;
+	}
+	&-image{
+		height: 42px;
 	}
 	&-title{
 		color: $color-gray;
@@ -10,16 +24,15 @@
 		font-weight: 700;
 		text-transform: uppercase;
 	}
-	&-text{
+	&-content{
+		text-align: center;
 		opacity: 0.75;
 		color: #333;
 		font-size: 14px;
 		font-weight: 300;
-		line-height: 22px;
+		line-height: 1.6;
 		margin-top: 25px;
-	}
-	&-image{
-		height: 42px;
-		margin: 35px;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 }
