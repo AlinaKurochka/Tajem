@@ -1,0 +1,18 @@
+.social{
+	list-style: none;
+	font-size: 0;
+	&-item{
+		display: inline-block;
+		font-size: 15px;
+		&:not(:last-child){
+			margin-right: 15px;
+		}
+		a{
+			color: inherit;
+			display: block;
+		}
+	}
+	&-footer{
+		color: #fff;
+	}
+}

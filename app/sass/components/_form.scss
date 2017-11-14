@@ -1,0 +1,60 @@
+.form{
+	&-block &-content &{
+		&-row{
+			&:not(:last-child){
+				margin-bottom: 20px;
+			}
+		}
+	}
+	&-control{
+		display: block;
+		padding: 15px 20px;
+		width: 100%;
+		border: 1px solid #e5e5e5;
+		font-size: 14px;
+		font-weight: 300;
+		color: #413d4b;
+		resize: none;
+	}
+	&-subscribe &{
+		&-content{
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			margin-left: -7.5px;
+			margin-right: -7.5px;
+		}
+		&-control,
+		&-submit{
+			height: 45px;
+		}
+		&-submit{
+			position: relative;
+			display: block;
+			border: none;
+			width: 70px;
+			background-color: transparentize(#fff, 0.8);
+			text-indent: -9999px;
+			transition: all ease 0.5s;
+			cursor: pointer;
+			&:hover{
+				background-color: transparentize(#fff, 0.1);
+			}
+			&:before{
+				content: "";
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%,-50%);
+				width: 25px;
+				height: 25px;
+				background:  url('../img/paper.png') 0 0 no-repeat;
+				background-size: cover;
+			}
+		}
+		&-row{
+			padding-left: 7.5px;
+			padding-right: 7.5px;
+		}
+	}
+}

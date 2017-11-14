@@ -1,19 +1,30 @@
 @import 'helpers/variables';
+
 @import 'base/reset';
+
 @import 'base/base';
 @import 'grid/grid';
 
 @import 'layouts/nav';
-@import 'components/logo';
+@import 'layouts/footer';
 @import 'sections/header';
+
+@import 'utilities/text';
+
+@import 'components/logo';
 @import 'components/background-gradient';
+@import 'components/title';
 @import 'components/text';
 @import 'components/button';
+@import 'components/block-icon';
+@import 'components/form';
+@import 'components/client';
+@import 'components/social';
+
 @import 'sections/story';
-@import 'components/title';
 @import 'sections/section-play';
 @import 'sections/expertise';
-@import 'components/block-icon';
 @import 'sections/our-team';
 @import 'sections/works';
 @import 'sections/review';
+@import 'sections/contact-us';

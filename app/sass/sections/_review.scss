@@ -10,12 +10,12 @@
 		padding-top: 110px;
 		&::before{
 			content: "\201C";
-		    font-family: 'Playfair Display', serif;
-		    font-size: 100px;
-		    position: absolute;
-		    left: 50%;
-	    	top: 0;
-	    	transform: translateX(-50%);
+				font-family: 'Playfair Display', serif;
+				font-size: 100px;
+				position: absolute;
+				left: 50%;
+				top: 0;
+				transform: translateX(-50%);
 		}
 		&::after{
 			content: "";
@@ -57,35 +57,46 @@
 		&-photos{
 			text-align: center;
 			position: relative;
-		    width: 500px;
-		    margin: 0 auto;
-		&-navigation{
-			position: relative;
-		    left: 0;
-		    top: 50%;
-		    transform: translateY(-50%);
-		    width: 100%;
-		    z-index: 1;
-		}
+			width: 500px;
+			margin: 45px auto 0;
+			&-navigation{
+				position: absolute;
+				left: 0;
+				top: 50%;
+				transform: translateY(-50%);
+				width: 100%;
+				z-index: 1;
+			}
+			&-content{
+				font-size: 0;
+				li{
+					display: inline-block;
+					vertical-align: middle;
+					&:not(:last-child){
+						margin-right: 10px;
+					}
+				}
+			}
 		}
 		&-photos-arrow{
 			position: absolute;
-		    left: 0;
-		    top: 0;
-		    border: none;
-		    text-indent: -9999px;
-		    width: 11px;
-		    height: 21px;
-		    background: transparent url(../img/arrow-left.png) 0 0 no-repeat;
-		    -webkit-background-size: cover;
-		    background-size: cover;
-		    cursor: pointer;
-		    outline: none;
-	    &-right{
-	    	transform: scaleX(-1);
-	    	right: 0;
-    		left: auto;
-	    }
+			top: 50%;
+			border: none;
+			width: 11px;
+			height: 21px;
+			margin-top: -10.5px;
+			background: transparent url('../img/arrow-right.png') 0 0 no-repeat;
+			-webkit-background-size: cover;
+			background-size: cover;
+			cursor: pointer;
+			outline: none;
+			&-left{
+				transform: scaleX(-1);
+				left: 0;
+			}
+			&-right{
+				right: 0;
+			}
 		}
 	}
 }

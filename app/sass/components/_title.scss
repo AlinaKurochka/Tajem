@@ -6,25 +6,32 @@
 	text-transform: uppercase;
 	letter-spacing: 1.1px;
 	padding-bottom: 10px;
-	&-top{
-		padding-bottom: 15px;
-	}
-	&-center{
-		color: $color-white;
-		text-align: center;
-		font-size: 16px;
-		letter-spacing: 0.8px;
-		padding-top: 30px;
-	}
 	&-base{
 		text-align: center;
 	}
 	&-gradient-section{
 		color: $color-white;
 	}
-	&-our-team{
-		color: $color-white;
-		font-size: 14px;
-		letter-spacing: 0.7px;
+	&-wrapper{
+		position: relative;
+		padding-bottom: 20px;
+		margin-bottom: 45px;
+		&:after{
+			content: "";
+			width: 50px;
+			height: 2px;
+			background-color: #fff;
+			position: absolute;
+			left: 50%;
+			bottom: 0;
+			margin-left: -25px;
+			opacity: 0.2;
+		}
+		&-dark{
+			&:after{
+				background-color: rgb(65, 61, 75);
+				opacity: 0.3;
+			}
+		}
 	}
 }

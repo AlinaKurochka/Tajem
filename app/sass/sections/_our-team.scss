@@ -10,13 +10,21 @@
 		    width: 100%;
 		}
 	}
-	&-content{
-		padding-top: 45px;
-		padding-bottom: 70px;
-	}
 	&-body{
 		text-align: center;
 		border: 1px solid #7a6f8c;
-		padding: 10px;
+		padding: 20px 15px;
+	}
+	&-title{
+		color: #fff;
+		font-weight: 900;
+	}
+	&-footer{
+		margin-top: 65px;
+		color: #fff;
+		text-align: center;	
+		&-title{
+			margin-bottom: 25px;
+		}
 	}
 }

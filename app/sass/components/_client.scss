@@ -1,0 +1,9 @@
+.client{
+	list-style: none;
+	font-size: 0;
+	&-item{
+		display: inline-block;
+		width: 50%;
+		margin-bottom: 40px;
+	}
+}

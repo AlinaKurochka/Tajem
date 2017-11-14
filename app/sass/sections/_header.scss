@@ -1,7 +1,7 @@
 .header{
 	padding: 200px 0;
+	color: #fff;
 	&-title{
-		color: $color-white;
 		font-family: "Playfair Display";
 		font-size: 32px;
 		font-weight: 900;
@@ -9,32 +9,25 @@
 		position: relative;
 		padding-bottom: 20px;
 		margin-bottom: 30px;
-	&:after{
-		content: "";
-		width: 50px;
-		height: 1px;
-		background-color: $color-primary;
-		position: absolute;
-		left: 50%;
-		bottom: 0;
-		margin-left: -25px;
-	}
+		&:after{
+			content: "";
+			width: 50px;
+			height: 1px;
+			background-color: $color-primary;
+			position: absolute;
+			left: 50%;
+			bottom: 0;
+			margin-left: -25px;
+		}
 	}
 	&-text{
 		text-align: center;
 		padding-right: 85px;
 		padding-left: 85px;
 	}
-}
-.button{
-	&-center{
-		text-align: center;
-	}
-	&-header{
-		margin-top: 50px;
-	}
-	&:hover{
-		background-color: $color-primary;
-		color: $color-white;
+	&-button{
+		&-wrapper{
+			margin-top: 50px;
+		}
 	}
 }
